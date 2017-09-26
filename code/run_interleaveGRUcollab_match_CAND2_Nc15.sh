@@ -10,7 +10,7 @@ python -m adr_res_selection.main.main \
        --unit gru \
        --batch 128 \
        --dim_emb 300 \
-       --init_emb data/glove.840B.300d.txt \
+       --init_emb ../data/glove.840B.300d.txt \
        --n_prev_sents 15 \
        --crosstest 4 \
        --save 1 \
