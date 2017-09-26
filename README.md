@@ -1,6 +1,6 @@
 # SIRNN
 
-This repo contains Theano implementations of the Speaker Interaction RNNs in the following paper:
+Theano implementations of the Speaker Interaction RNNs(SIRNN) in the following paper:
 
 [Addressee and Response Selection in Multi-Party Conversations with Speaker Interaction RNNs](https://arxiv.org/abs/1709.04005).
 
