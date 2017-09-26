@@ -12,7 +12,7 @@ The code and data is based on [Addressee and Response Selection for Multi-Party 
 
 ## Data
   - To run experiments with 10 candidates, concatentate train-data.cand-10.1.gz and train-data.cand-10.2.gz into train-data.cand-10.gz: `zcat train-data.cand-10.1.gz train-data.cand-10.2.gz | gzip > train-data-cand-10.gz`
-  - Download Glove embedding and save it as data/glove.840B.300d.txt
+  - Download [300-d Glove embedding](http://nlp.stanford.edu/data/glove.840B.300d.zip) and save it as data/glove.840B.300d.txt
 
 ## Usage
   - SIRNN with 2 candidates and 15 context length: `cd code; ./run_interleaveGRUcollab_match_CAND2_Nc15.sh`
