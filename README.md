@@ -15,6 +15,4 @@ The code and data is based on [Addressee and Response Selection for Multi-Party 
   - Download Glove embedding and save it as data/glove.840B.300d.txt
 
 ## Usage
-  - Static Model: `python -m adr_res_selection.main.main -mode train --train_data ../data/input/train-data.cand-2.gz --dev_data ../data/input/dev-data.cand-2.gz --test_data ../data/input/test-data.cand-2.gz --model static --data_size 100`
-  - Dynamic Model: `python -m adr_res_selection.main.main -mode train --train_data ../data/input/train-data.cand-2.gz --dev_data ../data/input/dev-data.cand-2.gz --test_data ../data/input/test-data.cand-2.gz --model dynamic --data_size 100`
-  - SIRNN Model: `python -m adr_res_selection.main.main -mode train --train_data ../data/input/train-data.cand-2.gz --dev_data ../data/input/dev-data.cand-2.gz --test_data ../data/input/test-data.cand-2.gz --model dynamic --data_size 100`
+  - SIRNN Model: `./run_interleaveGRUcollab_match_CAND10_Nc15.sh`
